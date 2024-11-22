@@ -1,0 +1,21 @@
+{
+  "name": "practical-management-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js"
+  },
+  "keywords": [],
+  "author": "Chetna Sonawane",
+  "license": "ISC",
+  "description": "Backend project of Practical Management system",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.1",
+    "nodemon": "^3.1.7"
+  }
+}
